@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Tajawal", Sans-serif;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(66, 65, 65, 0.75), rgba(36, 36, 36, 0.75)), url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.row {
+    margin-top: 80px;
+    display: flex;
+    margin-right: -5%;
+    margin-left: -10%;
+    justify-content: space-around;
+}
+/**************first col*************/
+.col {
+    flex-basis: 28%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    min-width: 230px;
+    margin-bottom: 20px;
+    z-index: 2;
+    margin-left: 0;
+    transform: scale(1.1);
+}
+/**************seconde col*************/
+.col2 {
+    flex-basis: 28%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    min-width: 230px;
+    margin-bottom: 20px;
+    z-index: 2;
+    margin-right: 8%;
+    transform: scale(1.1);
+}
+/**************thired col*************/
+.col3 {
+    flex-basis: 28%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    min-width: 230px;
+    margin-bottom: 20px;
+    z-index: 2;
+    margin-left: 8%;
+    transform: scale(1.1);
+}
+/**************fourth col*************/
+.col4 {
+    flex-basis: 28%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    min-width: 230px;
+    margin-bottom: 20px;
+    z-index: 2;
+    margin-left: 8%;
+    transform: scale(1.1);
+}
+
+/***********************first profile****************/
+
+.profile {
+    width: 120%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #1e2648;
+    padding: 12px;
+    margin-right: 0;
+    
+}
+
+
+
+.profile img {
+    width: 100%;
+}
+
+.profile h2 {
+    margin: 25px 0 10px;
+    font-weight: 500;
+}
+
+.profile p {
+    font-size: 25px;
+    font-family: 'RB', sans-serif;
+    margin-bottom: 10px;
+    color: #6fc59e;
+    
+}
+/*************seconde profile******************/
+.profile2 {
+    width: 120%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #1e2648;
+    padding: 12px;
+    margin-right: 0;
+}
+
+
+
+.profile2 img {
+    width: 100%;
+}
+
+.profile2 h2 {
+    margin: 25px 0 10px;
+    font-weight: 500;
+}
+
+.profile2 p {
+    font-size: 25px;
+    font-family: 'RB', sans-serif;
+    margin-bottom: 10px;
+    color: #c1272d;
+}
+/*********  third profile*************/
+.profile3 {
+    width: 120%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #1e2648;
+    padding: 12px;
+    margin-right: 0;
+}
+
+
+
+.profile3 img {
+    width: 100%;
+}
+
+.profile3 h2 {
+    margin: 25px 0 10px;
+    font-weight: 500;
+}
+
+.profile3 p {
+    font-size: 25px;
+    font-family: 'RB', sans-serif;
+    margin-bottom: 10px;
+    color: #f0a558;
+}
+
+/*********  fourth profile*************/
+.profile4 {
+    width: 120%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #1e2648;
+    padding: 12px;
+    margin-right: 0;
+}
+
+
+
+.profile4 img {
+    width: 100%;
+}
+
+.profile4 h2 {
+    margin: 25px 0 10px;
+    font-weight: 500;
+}
+
+.profile4 p {
+    font-size: 25px;
+    font-family: 'RB', sans-serif;
+    margin-bottom: 10px;
+    color: #f0a558;
+}
+
+/**************first col animation set up*************/
+.col::before,
+.col::after {
+    content: '';
+    height: 0;
+    width: 0;
+    background: linear-gradient(135deg, #4e886e, #ccf9ca);
+    position: absolute;
+    z-index: -1;
+    animation: none;
+
+}
+
+.col::before {
+    left: 0;
+    top: -8px;
+}
+
+.col::after {
+    right: 0;
+    bottom: -8px;
+}
+/**************seconde col animation set up*************/
+.col2::before,
+.col2::after {
+    content: '';
+    height: 0;
+    width: 0;
+    background: linear-gradient(135deg, #c1272d, #fff);
+    position: absolute;
+    z-index: -1;
+    animation: none;
+
+}
+
+.col2::before {
+    left: 0;
+    top: -8px;
+}
+
+.col2::after {
+    right: 0;
+    bottom: -8px;
+}
+/**************thired col animation set up*************/
+.col3::before,
+.col3::after {
+    content: '';
+    height: 0;
+    width: 0;
+    background: linear-gradient(135deg, #f0a558, #e4caaf);
+    position: absolute;
+    z-index: -1;
+    animation: none;
+
+}
+
+.col3::before {
+    left: 0;
+    top: -8px;
+}
+
+.col3::after {
+    right: 0;
+    bottom: -8px;
+}
+/**************fourth col animation set up*************/
+.col4::before,
+.col4::after {
+    content: '';
+    height: 0;
+    width: 0;
+    background: linear-gradient(135deg, #70c4ee, #025192);
+    position: absolute;
+    z-index: -1;
+    animation: none;
+
+}
+
+.col4::before {
+    left: 0;
+    top: -8px;
+}
+
+.col4::after {
+    right: 0;
+    bottom: -8px;
+}
+/******************************************************/
+@keyframes stroke {
+    0% {
+        height: 8px;
+        width: 0px;
+    }
+
+    50% {
+        height: 8px;
+        width: calc(100% + 8px);
+    }
+
+    100% {
+        height: calc(100% + 16px);
+        width: calc(100% + 8px);
+    }
+}
+
+ 
+    
+
+/***************animation kframes************/
+    @keyframes stroke {
+        0% {
+            height: 8px;
+            width: 0px;
+        }
+
+        50% {
+            height: 8px;
+            width: calc(100% + 8px);
+        }
+
+        100% {
+            height: calc(100% + 16px);
+            width: calc(100% + 8px);
+            margin-left: 50px; 
+        }
+    }
+
+
+
+/**************col animation set up*************/
+
+.col:hover::before,
+.col:hover::after {
+
+    animation: stroke 1s linear;
+    animation-fill-mode: forwards;
+}
+.col2:hover::before,
+.col2:hover::after {
+
+    animation: stroke 1s linear;
+    animation-fill-mode: forwards;
+}
+.col3:hover::before,
+.col3:hover::after {
+
+    animation: stroke 1s linear;
+    animation-fill-mode: forwards;
+}
+.col4:hover::before,
+.col4:hover::after {
+
+    animation: stroke 1s linear;
+    animation-fill-mode: forwards;
+}
+/*************the loader style*********************/
+#preloader{
+    background: #fff url(img/preloader.gif) no-repeat center center;
+    background-size: 50%;
+    height: 100vh; 
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    }
+
+
+
+    /***************media query for large screens****************/
+
+    @media(min-width:1600px) {
+        @keyframes stroke {
+            0% {
+                height: 0px;
+                width: 0px;
+            }
+    
+            50% {
+                height: 8px;
+                width: calc(80% + 8px);
+            }
+    
+            100% {
+                height: calc(100% + 16px);
+                width: calc(101% + 8px);
+                margin-left: 60px; 
+            }
+        }
+    }
+    @media(min-width:886px) and (max-width: 1300px){
+        @keyframes stroke {
+            0% {
+                height: 8px;
+                width: 0px;
+            }
+        
+            50% {
+                height: 8px;
+                width: calc(80% + 8px);
+            }
+        
+            100% {
+                height: calc(100% + 16px);
+                width: calc(80% + 8px);
+                margin-right: 45px;
+            }
+        }
+         .profile{
+            width:80%;
+           
+         }
+         .profile2{
+            width: 80%;
+           
+         }
+         .profile3{
+            width: 80%;
+           
+         }
+         .profile4{
+            width: 80%;
+            
+         }
+         .row{
+            margin-left: 17px;
+         }
+         
+           .col2{
+            margin-right: 0%;
+            margin-bottom: 100px;
+            
+        }
+        .col3{
+            margin-left: 0%;
+            margin-bottom: 100px;
+        }
+        .col4{
+            margin-left: 0%;
+            margin-bottom: 100px;
+        }
+        .col{
+            margin-bottom: 100px;
+        }
+        
+        }
+         /***************media query for meduim screens****************/
+
+        @media(min-width:768px) and (max-width: 885px){
+            .row{
+                 display: flex;
+                 flex-wrap: wrap;
+                 justify-content: space-between;
+                 margin-left: 1px;
+                 margin-right: 30px;
+            }
+            .col2{
+                margin-right: 0%;
+                margin-bottom: 100px;
+                
+            }
+            .col3{
+                margin-left: 0%;
+                margin-bottom: 100px;
+            }
+            .col4{
+                margin-left: 0%;
+                margin-bottom: 100px;
+            }
+            .col{
+                margin-bottom: 100px;
+            }
+        }
+         /***************media query for s-meduim screens****************/
+        @media(max-width: 767px){
+            .row{
+                 display: flex;
+                 flex-wrap: wrap;
+                justify-content: space-around;
+                margin-right: 30px;
+            }
+            .col2{
+                margin-right: 0%;
+                margin-bottom: 100px;
+                
+            }
+            .col3{
+                margin-left: 0%;
+                margin-bottom: 100px;
+            }
+            .col4{
+                margin-left: 0%;
+                margin-bottom: 100px;
+            }
+            .col{
+                margin-bottom: 100px;
+            }
+        }
+        
+    /***************media query for small screens****************/
+        @media(min-width:700px) and (max-width:766px) {
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+               justify-content: space-between;
+               margin-left: -28px;
+           }
+           .col2{
+               margin-right: 0%;
+               margin-bottom: 100px;
+               
+           }
+           .col3{
+               margin-left: 0%;
+               margin-bottom: 100px;
+           }
+           .col4{
+               margin-left: 0%;
+               margin-bottom: 100px;
+           }
+           .col{
+               margin-bottom: 100px;
+           }
+        }
+       /***************media query for x-small screens****************/
+             @media(min-width:600px) and (max-width:699px) {
+                .row{
+                    display: flex;
+                    flex-wrap: wrap;
+                   justify-content: space-around;
+                   margin-left: 30px;
+               }
+               .col2{
+                   margin-right: 0%;
+                   margin-bottom: 100px;
+                   
+               }
+               .col3{
+                   margin-left: 0%;
+                   margin-bottom: 100px;
+               }
+               .col4{
+                   margin-left: 0%;
+                   margin-bottom: 100px;
+               }
+               .col{
+                   margin-bottom: 100px;
+               }
+            }
